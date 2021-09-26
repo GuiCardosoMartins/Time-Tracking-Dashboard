@@ -15,11 +15,11 @@
 
 ## O Desafio
 
-<p id="desafio">O desafio consiste em elaborar um dashboard contendo informações sobre a rotina, essas informações estão dispostas em (diariamente, semanalmente e mensalmente), vocẽ pode explorar esses horários com a dinâmica do JavaScript.</p>
+<p id="desafio">O desafio consiste em elaborar um dashboard contendo informações sobre a rotina, essas informações estão dispostas em (diariamente, semanalmente e mensalmente), você pode explorar esses horários com a dinâmica do JavaScript.</p>
 
 ### Onde encontrar tudo
 
-<p id="info">A tarefa é construir o projeto para os designs dentro da pasta `/design`. Você encontrará uma versão móvel e uma versão desktop do design.
+<p id="info">A tarefa é construir o projeto para os designs dentro da pasta `design`. Você encontrará uma versão móvel e uma versão desktop do design.
 
 Os designs estão no formato estático JPG. Usar JPGs significa que você precisará usar seu bom senso para estilos como `font-size`, `padding` e `margin`.
 
