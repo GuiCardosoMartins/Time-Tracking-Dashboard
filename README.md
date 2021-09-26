@@ -30,12 +30,15 @@ Há também um `style-guide.md` arquivo contendo as informações de que você p
 ### Objetivo
 
 <p id="obejtivo">Este projeto tem como objetivo o aperfeiçoamento de habilidades em HTML e principalmente CSS e JavaScript. <br>
-Tentei utilizar a metodologia CSS denominada BEM, que consiste em priorizar a adoção de classes ao invés de IDs. Também utilizei da metodologia mobile-first. Com isso, acredito obtive um resultado considerável.</p>
+Tentei utilizar a metodologia CSS denominada BEM, que consiste em priorizar a adoção de classes ao invés de IDs.<br>
+Também utilizei da metodologia mobile-first. Com isso, acredito obtive um resultado considerável.</p>
 
 ## Pré-Requisitos
 
 
-<p id="requisitos">Antes de começar, é importante que você tenha conhecimentos sobre desenvolvimento web, como HTML5, CSS3 e JavaScript. Também é importante saber como manipular elementos usando a api DOM<br>
+<p id="requisitos">Antes de começar, é importante que você tenha conhecimentos sobre desenvolvimento web, como HTML5, CSS3 e JavaScript.<br>
+
+Também é importante saber como manipular elementos usando a api DOM.<br>
  
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).</p>
 
