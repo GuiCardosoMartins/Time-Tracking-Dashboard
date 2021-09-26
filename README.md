@@ -19,11 +19,11 @@
 
 ### Onde encontrar tudo
 
-<p id="info">A tarefa é construir o projeto para os designs dentro da `/design` pasta. Você encontrará uma versão móvel e uma versão desktop do design.
+<p id="info">A tarefa é construir o projeto para os designs dentro da pasta `/design`. Você encontrará uma versão móvel e uma versão desktop do design.
 
 Os designs estão no formato estático JPG. Usar JPGs significa que você precisará usar seu bom senso para estilos como `font-size`, `padding` e `margin`.
 
-Você encontrará todos os ativos necessários na `/images` pasta. Os ativos já estão otimizados.
+Você encontrará todos os ativos necessários na pasta `/images`. Os ativos já estão otimizados.
 
 Há também um `style-guide.md` arquivo contendo as informações de que você precisa, como paleta de cores e fontes.</p>
 
