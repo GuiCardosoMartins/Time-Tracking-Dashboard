@@ -30,7 +30,9 @@ Há também um `style-guide.md` arquivo contendo as informações de que você p
 ### Objetivo
 
 <p id="obejtivo">Este projeto tem como objetivo o aperfeiçoamento de habilidades em HTML e principalmente CSS e JavaScript. <br>
+ 
 Tentei utilizar a metodologia CSS denominada BEM, que consiste em priorizar a adoção de classes ao invés de IDs.<br>
+ 
 Também utilizei da metodologia mobile-first. Com isso, acredito obtive um resultado considerável.</p>
 
 ## Pré-Requisitos
