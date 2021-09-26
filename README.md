@@ -19,7 +19,7 @@
 
 ### Onde encontrar tudo
 
-<p id="info">A tarefa é construir o projeto para os designs dentro da pasta design. Você encontrará uma versão móvel e uma versão desktop do design.
+<p id="info">A tarefa é construir o projeto para os designs dentro da pasta `/design`. Você encontrará uma versão móvel e uma versão desktop do design.
 
 Os designs estão no formato estático JPG. Usar JPGs significa que você precisará usar seu bom senso para estilos como `font-size`, `padding` e `margin`.
 
