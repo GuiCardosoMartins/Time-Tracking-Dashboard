@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,sub,sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+#container{
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+    padding: 80px 25px;
+    height: 100%;
+}
+.perfil{
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+}
+.perfil-descricao{
+   background-color: hsl(264, 64%, 52%);
+   display: flex;
+   padding: 25px;
+   align-items: center;
+   border-radius: 15px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+ul li {
+    color: hsl(236, 100%, 87%);
+    cursor: pointer;
+}
+ul li:hover{
+    color: #fff;
+}
+ul li.clicked {
+    color: #fff;
+}
+.perfil-descricao-text{
+    font-weight: 300;
+    padding-left: 25px;
+    font-size: 1rem;
+}
+.perfil-descricao-text__destaque{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+img{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 25%;
+}
+.perfil-time{
+   padding: 16px 40px;
+}
+section + section{
+    margin-top: 25px;
+}
+.svg-hidden{
+   position: relative;
+   bottom: 10px;
+   left: 230px;   
+}
+.card{
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    height: 150px;
+}
+.card-body{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    position: relative;
+    bottom: 42px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition: all 500ms linear;
+}
+.card-body:hover{
+    background-color: hsl(235, 45%, 61%);
+}
+p{
+    color: white;
+    font-weight: 400;
+}
+.card-titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-titulo__destaque{
+    font-weight: 600;
+}
+.card-hrs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+.current{
+    font-size: 25px;
+}
+.colorWork{
+    background-color: hsl(15, 100%, 70%);
+}
+.colorPlay{
+    background-color: hsl(195, 74%, 62%);
+}
+.colorStudy{
+    background-color: hsl(348, 100%, 68%);
+}
+.colorExercise{
+    background-color: hsl(145, 58%, 55%);
+}
+.colorSocial{
+    background-color: hsl(264, 64%, 52%);
+}
+.colorSelfCare{
+    background-color: hsl(43, 84%, 65%);
+}
+@media screen and (min-width: 1440px) {
+    #container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .escopo{
+        display: grid;
+        grid-template-columns: repeat(4, 250px);
+        grid-template-areas: 
+        "perfil work play study"
+        "perfil exercise social selfcare";
+        gap: 25px;   
+    }
+    .perfil{
+        grid-area: perfil;
+    }
+    .colorWork{
+        grid-area: work;
+    }
+    .colorPlay{
+        grid-area: play;
+    }
+    .colorStudy{
+        grid-area: study;
+    }
+    .colorExercise{
+        grid-area: exercise;
+    }
+    .colorSocial{
+        grid-area: social;
+    }
+    .colorSelfCare{
+        grid-area: selfcare;
+    }
+    section + section{
+        margin-top: 0;
+    }
+    .perfil-descricao{
+       background-color: hsl(264, 64%, 52%);
+       display: block;
+       align-items: center;
+       padding: 40px;
+       border-radius: 15px;
+    }
+    .perfil-descricao-text{
+        padding-left: 0;
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    .perfil-descricao-text__destaque{
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+    span > span{
+        display: block;
+    }
+    img{
+        border: 2px solid white;
+        border-radius: 50%;
+        width: 55%;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .perfil-time{
+       display: block;
+       justify-content: space-around;
+       padding: 20px 40px;
+       color: white;
+    }
+    .card{
+        height: 200px;
+    }
+    .svg-hidden{
+        position: relative;
+        bottom: 10px;
+        left: 150px;   
+     }
+    .card-hrs{
+        display: block;
+    }
+    .card-hrs__destaque{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+}
