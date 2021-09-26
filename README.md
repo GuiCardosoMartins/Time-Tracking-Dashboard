@@ -4,8 +4,8 @@
 
 ## Bem-vindo! 👋
 <p align="center">
- <a href="desafio">Desafio</a> •
- <a hfef="info">Informações</a> •
+ <a href="#desafio">Desafio</a> •
+ <a href="#info">Informações</a> •
  <a href="#objetivo">Objetivo</a> •
  <a href="#requisitos">Pré-Requísitos</a> • 
 </p>
